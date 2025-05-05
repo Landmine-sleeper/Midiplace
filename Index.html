@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MIDI Player</title>
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+</head>
+<body>
+    <h1><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HnK7bPVq/pixil-gif-drawing-6.gif' style="max-width: 40px; max-height: 40px;" alt='pixil-gif-drawing-6'/></a>Привет<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HnK7bPVq/pixil-gif-drawing-6.gif' style="max-width: 40px; max-height: 40px;" alt='pixil-gif-drawing-6'/></a></h1>
+    <midi-player
+        src="https://raw.githubusercontent.com/Landmine-sleeper/Midithings/main/Miss%20Miseryguts%20Riproducer%20But%20In.mid"
+        sound-font
+        visualizer="#myVisualizer">
+    </midi-player>
+    <midi-visualizer type="piano-roll" id="myVisualizer"></midi-visualizer>
+</body>
+</html>
